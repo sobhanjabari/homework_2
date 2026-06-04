@@ -35,9 +35,9 @@ REM ------------------------------------------
 REM MLflow / HW03 environment variables
 REM ------------------------------------------
 set MLFLOW_TRACKING_URI=http://185.50.38.163:33014
-set MLFLOW_TRACKING_USERNAME=sobhan_jabari
-set MLFLOW_TRACKING_PASSWORD=iovNbOmVm0anGUMT
-set STUDENT_USERNAME=sobhan_jabari
+set MLFLOW_TRACKING_USERNAME=
+set MLFLOW_TRACKING_PASSWORD=
+set STUDENT_USERNAME=
 set MLFLOW_EXPERIMENT_NAME=qbc12_hw02_sobhan_jabari
 
 REM Selected HW02 final run
