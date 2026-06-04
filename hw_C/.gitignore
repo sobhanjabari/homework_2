@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+
+__pycache__/
+.ipynb_checkpoints/
+mlruns/
+artifacts/
+*.pkl
+*.joblib
