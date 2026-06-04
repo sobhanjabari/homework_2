@@ -1,0 +1,9 @@
+{
+  "features": {
+    "room_type": "Entire home/apt",
+    "listing_price": 150.0,
+    "available_rate_last_30d": 0.25,
+    "future_available_rate_30d": 0.10,
+    "high_demand_proxy": 1
+  }
+}
