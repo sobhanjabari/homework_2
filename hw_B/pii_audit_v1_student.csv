@@ -1,0 +1,8 @@
+table,column,pii_type,decision,reason
+listing,listing_id,entity identifier,keep as entity key only,needed to define one row per listing; not a model input
+listing,host_id,direct identifier (host),drop from features (use only for join),links listing to a real person; not allowed as model input
+host,host_pseudo_id,pseudonymous identifier,drop from features (join only),still re-identifies a host across listings
+listing,license,regulatory/legal identifier,drop,may contain government license numbers; sensitive & high-missing
+review,review_id,record identifier,drop (aggregate only),"row-level identifier, not a meaningful feature"
+review,reviewer_id,direct identifier (reviewer),drop (aggregate to counts only),identifies a real reviewer
+review,reviewer_pseudo_id,pseudonymous identifier,drop (count distinct only),re-identifies reviewers across reviews
