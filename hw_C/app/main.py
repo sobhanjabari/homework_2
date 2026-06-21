@@ -43,6 +43,7 @@ def root():
     return {
         "message": f"{config.APP_TITLE} is running.",
         "version": config.APP_VERSION,
+        "docs": "/docs",
         "docs_url": "/docs",
     }
 
