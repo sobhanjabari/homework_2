@@ -1,0 +1,21 @@
+# Local environment / secrets
+.env
+.env.*
+!.env.example
+enviroment.bat
+environment.bat
+!enviroment.example.bat
+!environment.example.bat
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python cache/build artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
